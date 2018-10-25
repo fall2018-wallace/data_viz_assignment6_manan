@@ -4,10 +4,11 @@ library('ggplot2')
 ggplot(data = census_arrests,aes(census_arrests$population))+
   pophist <- geom_histogram(color ='black', fill= 'white',bins = 50)
 pophist
+
 # Histogram for murder
 ggplot(data = census_arrests,aes(census_arrests$Murder))+
   murderhist <- geom_histogram(color ='black', fill= 'white', bins = 50)
-
+murderhist
 # Histogram for Rape
 ggplot(data = census_arrests,aes(census_arrests$Rape))+
   geom_histogram(color ='black', fill= 'white', bins = 50)
