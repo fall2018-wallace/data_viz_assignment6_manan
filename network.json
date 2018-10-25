@@ -24,6 +24,17 @@
             ],
             "source": "census.R",
             "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "arrests.R",
+            "target": "merge.R"
         }
     ],
     "nodes": [
@@ -49,6 +60,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:58:34",
+    "updated_at": "2018-10-25 16:59:02",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
