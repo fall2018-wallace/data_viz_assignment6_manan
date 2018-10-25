@@ -206,8 +206,11 @@
         },
         {
             "name": "sbar.png"
+        },
+        {
+            "name": "cbar.png"
         }
     ],
-    "updated_at": "2018-10-25 17:33:40",
+    "updated_at": "2018-10-25 17:33:46",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
