@@ -117,6 +117,16 @@
             ],
             "source": "boxplot.R",
             "target": "popboxplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderboxplot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "murderboxplot.png"
         }
     ],
     "nodes": [
@@ -175,6 +185,6 @@
             "name": "murderboxplot.png"
         }
     ],
-    "updated_at": "2018-10-25 17:28:05",
+    "updated_at": "2018-10-25 17:28:24",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
