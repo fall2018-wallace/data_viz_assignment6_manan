@@ -17,8 +17,8 @@
         {
             "ports": [
                 {
-                    "input": "dfstates",
-                    "output": "dfstates",
+                    "input": "dfStates",
+                    "output": "dfStates",
                     "type": "r_obj"
                 }
             ],
@@ -49,6 +49,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:58:11",
+    "updated_at": "2018-10-25 16:58:34",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
