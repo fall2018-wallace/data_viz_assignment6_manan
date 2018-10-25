@@ -138,6 +138,16 @@
             ],
             "source": "merge.R",
             "target": "barchart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gbar",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "gbar.png"
         }
     ],
     "nodes": [
@@ -211,6 +221,6 @@
             "name": "cbar.png"
         }
     ],
-    "updated_at": "2018-10-25 17:33:46",
+    "updated_at": "2018-10-25 17:34:10",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
