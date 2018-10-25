@@ -179,6 +179,16 @@
             ],
             "source": "merge.R",
             "target": "scatter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterplot",
+                    "type": "png"
+                }
+            ],
+            "source": "scatter.R",
+            "target": "scatterplot.png"
         }
     ],
     "nodes": [
@@ -261,6 +271,6 @@
             "name": "scatterplot.png"
         }
     ],
-    "updated_at": "2018-10-25 17:37:15",
+    "updated_at": "2018-10-25 17:37:29",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
