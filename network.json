@@ -153,10 +153,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "mrdedhia",
             "desc": "",
-            "name": "boxplot.R"
+            "name": "boxplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "popboxplot.png"
         }
     ],
-    "updated_at": "2018-10-25 17:19:49",
+    "updated_at": "2018-10-25 17:27:29",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
