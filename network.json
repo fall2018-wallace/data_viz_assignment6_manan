@@ -66,6 +66,16 @@
             ],
             "source": "boxplot.R",
             "target": "murderhist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "rapehist",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "rapehist.png"
         }
     ],
     "nodes": [
@@ -112,6 +122,6 @@
             "name": "assualthist.png"
         }
     ],
-    "updated_at": "2018-10-25 17:11:44",
+    "updated_at": "2018-10-25 17:11:59",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
