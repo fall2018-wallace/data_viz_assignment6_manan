@@ -1,4 +1,5 @@
 
+library('ggplot2')
 # Step 7 Calculating the no of murders per state
 no_of_murder <- census_arrests$population*census_arrests$Murder/10000
 
