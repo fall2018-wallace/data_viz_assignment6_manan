@@ -26,10 +26,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "mrdedhia",
             "desc": "",
-            "name": "arrests.R"
+            "name": "arrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "merge.R"
         }
     ],
-    "updated_at": "2018-10-25 16:55:49",
+    "updated_at": "2018-10-25 16:57:12",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
