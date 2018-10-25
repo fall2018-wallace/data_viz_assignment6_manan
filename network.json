@@ -88,8 +88,11 @@
         },
         {
             "name": "pophist.png"
+        },
+        {
+            "name": "murderhist.png"
         }
     ],
-    "updated_at": "2018-10-25 17:09:47",
+    "updated_at": "2018-10-25 17:10:36",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
