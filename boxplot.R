@@ -9,15 +9,16 @@ pophist
 ggplot(data = census_arrests,aes(census_arrests$Murder))+
   murderhist <- geom_histogram(color ='black', fill= 'white', bins = 50)
 murderhist
+
 # Histogram for Rape
 ggplot(data = census_arrests,aes(census_arrests$Rape))+
-  geom_histogram(color ='black', fill= 'white', bins = 50)
-
+  rapehist <- geom_histogram(color ='black', fill= 'white', bins = 50)
+rapehist
 # Histogram for UrbanPop
 ggplot(data = census_arrests,aes(census_arrests$UrbanPop))+
-  geom_histogram(color ='black', fill= 'white', bins = 50)
-
+  urbanpophist <- geom_histogram(color ='black', fill= 'white', bins = 50)
+urbanpophist
 # # Histogram for Assualt
 ggplot(data = census_arrests,aes(census_arrests$Assault))+
-  geom_histogram(color ='black', fill= 'white', bins = 50)
-
+  assualthist <- geom_histogram(color ='black', fill= 'white', bins = 50)
+assualthist
