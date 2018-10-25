@@ -140,8 +140,12 @@
             "desc": "",
             "name": "hist.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "boxplot.R"
         }
     ],
-    "updated_at": "2018-10-25 17:13:40",
+    "updated_at": "2018-10-25 17:13:53",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
