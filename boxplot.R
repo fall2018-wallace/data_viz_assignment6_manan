@@ -2,11 +2,11 @@
 # Step 4 Installing ggplot and Genrating different histograms for population 
 library('ggplot2')
 ggplot(data = census_arrests,aes(census_arrests$population))+
-  geom_histogram(color ='black', fill= 'white',bins = 50)
-
+  pophist <- geom_histogram(color ='black', fill= 'white',bins = 50)
+pophist
 # Histogram for murder
 ggplot(data = census_arrests,aes(census_arrests$Murder))+
-  geom_histogram(color ='black', fill= 'white', bins = 50)
+  murderhist <- geom_histogram(color ='black', fill= 'white', bins = 50)
 
 # Histogram for Rape
 ggplot(data = census_arrests,aes(census_arrests$Rape))+
