@@ -46,6 +46,16 @@
             ],
             "source": "merge.R",
             "target": "boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pophist",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "pophist.png"
         }
     ],
     "nodes": [
@@ -80,6 +90,6 @@
             "name": "pophist.png"
         }
     ],
-    "updated_at": "2018-10-25 17:09:31",
+    "updated_at": "2018-10-25 17:09:47",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
