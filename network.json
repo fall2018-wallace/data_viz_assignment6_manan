@@ -13,6 +13,17 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "census.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfstates",
+                    "output": "dfstates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "census.R",
+            "target": "merge.R"
         }
     ],
     "nodes": [
@@ -32,10 +43,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "mrdedhia",
             "desc": "",
-            "name": "merge.R"
+            "name": "merge.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:57:12",
+    "updated_at": "2018-10-25 16:58:11",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
