@@ -168,6 +168,17 @@
             ],
             "source": "barchart.R",
             "target": "sbar.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census_arrests",
+                    "output": "census_arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "scatter.R"
         }
     ],
     "nodes": [
@@ -241,10 +252,12 @@
             "name": "cbar.png"
         },
         {
+            "assigned_to": "mrdedhia",
             "desc": "",
-            "name": "scatter.R"
+            "name": "scatter.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 17:36:07",
+    "updated_at": "2018-10-25 17:36:50",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
