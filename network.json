@@ -96,6 +96,17 @@
             ],
             "source": "hist.R",
             "target": "assualthist.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census_arrests",
+                    "output": "census_arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "hist.R",
+            "target": "boxplot.R"
         }
     ],
     "nodes": [
@@ -146,6 +157,6 @@
             "name": "boxplot.R"
         }
     ],
-    "updated_at": "2018-10-25 17:13:53",
+    "updated_at": "2018-10-25 17:14:54",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
