@@ -148,6 +148,16 @@
             ],
             "source": "barchart.R",
             "target": "gbar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "sbar",
+                    "type": "png"
+                }
+            ],
+            "source": "arrests.R",
+            "target": "sbar.png"
         }
     ],
     "nodes": [
@@ -221,6 +231,6 @@
             "name": "cbar.png"
         }
     ],
-    "updated_at": "2018-10-25 17:34:10",
+    "updated_at": "2018-10-25 17:34:22",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
