@@ -20,12 +20,16 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "mrdedhia",
             "desc": "",
             "name": "census.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "arrests.R"
         }
     ],
-    "updated_at": "2018-10-25 16:54:07",
+    "updated_at": "2018-10-25 16:55:49",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
