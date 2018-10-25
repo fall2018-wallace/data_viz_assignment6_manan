@@ -1,5 +1,5 @@
 
-
+library(ggplot)
 # Step 5  Genrating different boxplots for population and murder 
 popboxplot <- ggplot(data= census_arrests,aes(y=census_arrests$population , x=as.factor(0)))+
   geom_boxplot()
