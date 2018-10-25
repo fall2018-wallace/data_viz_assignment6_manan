@@ -12,7 +12,7 @@
                 }
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
-            "target": "clean.R"
+            "target": "census.R"
         }
     ],
     "nodes": [
@@ -20,9 +20,12 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "not assigned",
+            "desc": "",
+            "name": "census.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-25 16:53:32",
+    "updated_at": "2018-10-25 16:54:07",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
