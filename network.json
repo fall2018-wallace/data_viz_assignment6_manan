@@ -256,8 +256,11 @@
             "desc": "",
             "name": "scatter.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "scatterplot.png"
         }
     ],
-    "updated_at": "2018-10-25 17:36:50",
+    "updated_at": "2018-10-25 17:37:15",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
