@@ -1,0 +1,276 @@
+{
+    "collaborators": [
+        "mrdedhia"
+    ],
+    "created_at": "2018-10-25 16:44:47",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "census.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfStates",
+                    "output": "dfStates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "census.R",
+            "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "arrests.R",
+            "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census_arrests",
+                    "output": "census_arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "hist.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pophist",
+                    "type": "png"
+                }
+            ],
+            "source": "hist.R",
+            "target": "pophist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderhist",
+                    "type": "png"
+                }
+            ],
+            "source": "hist.R",
+            "target": "murderhist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "rapehist",
+                    "type": "png"
+                }
+            ],
+            "source": "hist.R",
+            "target": "rapehist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "urbanpophist",
+                    "type": "png"
+                }
+            ],
+            "source": "hist.R",
+            "target": "urbanpophist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "assualthist",
+                    "type": "png"
+                }
+            ],
+            "source": "hist.R",
+            "target": "assualthist.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census_arrests",
+                    "output": "census_arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "popboxplot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "popboxplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderboxplot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "murderboxplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census_arrests",
+                    "output": "census_arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "barchart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gbar",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "gbar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "cbar",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "cbar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "sbar",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "sbar.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census_arrests",
+                    "output": "census_arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "scatter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterplot",
+                    "type": "png"
+                }
+            ],
+            "source": "scatter.R",
+            "target": "scatterplot.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "mrdedhia",
+            "desc": "",
+            "name": "census.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mrdedhia",
+            "desc": "",
+            "name": "arrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mrdedhia",
+            "desc": "",
+            "name": "merge.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "pophist.png"
+        },
+        {
+            "name": "murderhist.png"
+        },
+        {
+            "name": "rapehist.png"
+        },
+        {
+            "name": "urbanpophist.png"
+        },
+        {
+            "name": "assualthist.png"
+        },
+        {
+            "assigned_to": "mrdedhia",
+            "desc": "",
+            "name": "hist.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mrdedhia",
+            "desc": "",
+            "name": "boxplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "popboxplot.png"
+        },
+        {
+            "name": "murderboxplot.png"
+        },
+        {
+            "assigned_to": "mrdedhia",
+            "desc": "",
+            "name": "barchart.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "gbar.png"
+        },
+        {
+            "name": "sbar.png"
+        },
+        {
+            "name": "cbar.png"
+        },
+        {
+            "assigned_to": "mrdedhia",
+            "desc": "",
+            "name": "scatter.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scatterplot.png"
+        }
+    ],
+    "updated_at": "2018-10-25 17:37:29",
+    "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
+}
