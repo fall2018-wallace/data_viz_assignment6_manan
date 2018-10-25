@@ -75,8 +75,11 @@
             "desc": "",
             "name": "boxplot.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "pophist.png"
         }
     ],
-    "updated_at": "2018-10-25 17:04:29",
+    "updated_at": "2018-10-25 17:09:31",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
