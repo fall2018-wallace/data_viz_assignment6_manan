@@ -160,8 +160,11 @@
         },
         {
             "name": "popboxplot.png"
+        },
+        {
+            "name": "murderboxplot.png"
         }
     ],
-    "updated_at": "2018-10-25 17:27:29",
+    "updated_at": "2018-10-25 17:27:41",
     "url": "https://github.com/fall2018-wallace/data_viz_assignment6_manan"
 }
